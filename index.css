@@ -13,7 +13,7 @@ div {
 .blurred {
     backdrop-filter: blur(8px);
     background-color: rgba(0,0,0, 0.4);
-    border: 3px solid black;
+
 }
 
 
