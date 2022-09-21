@@ -1,3 +1,3 @@
 # frontend-hw-2
 
-<img width="956" alt="image" src="https://user-images.githubusercontent.com/11719486/190002268-885fb056-c301-4608-a69d-325ac85b6773.png">
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/11719486/191518063-564d7a46-f795-4e86-a38e-e56b019569bd.png">
