@@ -1,6 +1,7 @@
 # frontend-hw-3
 
-<img width="959" alt="image" src="https://user-images.githubusercontent.com/11719486/191518063-564d7a46-f795-4e86-a38e-e56b019569bd.png">
+![image](https://user-images.githubusercontent.com/11719486/193447533-2d2448ea-48fa-48c3-aa1c-19fa0e251200.png)
+
 
 ## Installation
 
@@ -22,3 +23,7 @@ npm install
 ```bash
 npx webpack
 ```
+
+## Troubles
+
+Had to change API I used in previous homework, as it stopped working :(
