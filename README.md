@@ -14,8 +14,7 @@
 1. Install webpack
 
 ```bash
-npm install webpack webpack-cli --save-dev
-npm install --save-dev typescript ts-loader
+npm install
 ```
 
 2. Build

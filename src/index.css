@@ -10,13 +10,14 @@ div {
     padding: 10px;
 }
 
+p {
+    color: white;
+}
+
 .blurred {
     backdrop-filter: blur(8px);
     background-color: rgba(0,0,0, 0.4);
-
 }
-
-
 
 /*
 Background and animation taken from: https://1stwebdesigner.com/15-css-background-effects/
