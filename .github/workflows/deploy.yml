@@ -19,6 +19,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
+          token: ${{ secrets.PAT_TOKEN }}
           repository-name: Ziucay/ziucay.github.io
           branch: master
           folder: build
