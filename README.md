@@ -1,29 +1,27 @@
-# frontend-hw-4
+## Install
 
-![image](https://user-images.githubusercontent.com/11719486/193447533-2d2448ea-48fa-48c3-aa1c-19fa0e251200.png)
-
-
-## Installation
-
-### Prerequisites
-
-- nvm
-- Node
-- npm
-
-
-1. Install webpack
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
-npm install
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
 ```
 
-2. Build
+## Build
+
+To create a production version of your app:
 
 ```bash
-npx webpack
+npm run build
 ```
 
-## Troubles
+You can preview the production build with `npm run preview`.
 
-Had to change API I used in previous homework, as it stopped working :(
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+## Credits
+
+- `flexboxgrid.min.css` taken from http://flexboxgrid.com/
+- Background and animation taken from: https://1stwebdesigner.com/15-css-background-effects/

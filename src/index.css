@@ -6,7 +6,6 @@
 
 div {
     display: flex;
-    flex: 1 1 auto;
     padding: 10px;
 }
 
@@ -19,12 +18,17 @@ p {
     background-color: rgba(0,0,0, 0.4);
 }
 
+a:hover, a:focus, a:active, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
 /*
 Background and animation taken from: https://1stwebdesigner.com/15-css-background-effects/
 */
 body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
+    background-size: 600% 600%;
     animation: gradient 15s ease infinite;
 }
 
