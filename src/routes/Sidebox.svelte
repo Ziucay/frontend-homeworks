@@ -9,7 +9,7 @@
             <img src={face} alt="avatar" style="height: 15em; width: 15em; justify-content: center">
             <Telegram/>
             <a href="/about" style="padding: 0.5em 0">About</a>
-            <a href="/fact" style="padding: 0.5em 0">Random math facts(static)</a>
+            <a href="/fact" style="padding: 0.5em 0">Random math facts</a>
         </div>
     </div>
 </div>
