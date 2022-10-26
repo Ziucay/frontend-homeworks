@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   workflow_dispatch:
 
 jobs:
@@ -11,9 +11,17 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install and Build
+      - name: Install and prepare
         run: |
           npm install
+          npm run prepare
+
+      - name: Prettier and ESLint checks
+        run: |
+          npm run lint
+
+      - name: Build
+        run: |
           npm run build
 
       - name: Deploy to GitHub Pages
